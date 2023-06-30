@@ -1,0 +1,16 @@
+﻿<Window x:Class="CryptOskin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CryptOskin"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Height="193" Width="768" RenderTransformOrigin="0.508,0.513">
+        <Button x:Name="Cesar" Content="Шифр Цезаря" MaxWidth="200" Click="btnCesar" Height="67" HorizontalAlignment="Left" Margin="25,67,0,0" VerticalAlignment="Top" Width="115"/>
+        <Button x:Name="Vig" Content="Система Вижнера" MaxWidth="200" Click="btnVig" Height="67" HorizontalAlignment="Left" Margin="230,67,0,0" VerticalAlignment="Top" Width="115"/>
+        <Button x:Name="Table" Content="Шифрование таблицой(одиночная перестановка)" MaxWidth="350" Click="btnTable" Height="67" HorizontalAlignment="Left" Margin="430,67,0,0" VerticalAlignment="Top" Width="279"/>
+
+
+    </Grid>
+</Window>
